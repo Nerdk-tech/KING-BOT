@@ -1,6 +1,5 @@
 {
-  "name": "LITE-XD",
-  "description": "Javascript WhatsApp bot made by ᴍᴀʟᴠɪɴ ᴛᴇᴄʜ",
+  "name": "KING-ᴛᴇᴄʜtion": "Javascript WhatsApp bot made by ᴍᴀʟᴠɪɴ ᴛᴇᴄʜ",
   "logo": "https://files.catbox.moe/qumhu4.jpg",
   "keywords": ["MALVIN-XD","LITE-XD"],
   "success_url": "/",
@@ -9,10 +8,9 @@
   "env": {
     "SESSION_ID": {
       "description": "Must Start with 'lite~'",
-      "required": true,
-      "value": ""
+      "required": trequired   "value": ""
     },
-      "BOT_NAME": {
+      "KING-BOT": {
         "description": "write here your bot name.",
         "required": true,
         "value": "ʟɪᴛᴇ-xᴅ"      
@@ -37,7 +35,7 @@
     "OWNER_NUMBER": {
       "description": "Put only one Owner Number Here",
       "required": true,
-      "value": "263780166288"
+      "value": "+234 815 699 3600"
     },
     
     "PRESENCE": {
