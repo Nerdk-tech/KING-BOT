@@ -1,33 +1,32 @@
 {
-  "name": "KING-ᴛᴇᴄʜtion": "Javascript WhatsApp bot made by ᴍᴀʟᴠɪɴ ᴛᴇᴄʜ",
-  "logo": "https://files.catbox.moe/qumhu4.jpg",
-  "keywords": ["MALVIN-XD","LITE-XD"],
+  "name": "KING-ᴛᴇᴄʜᴛɪᴏɴ",
+  "description": "Javascript WhatsApp bot made by King",
+ "https://files.catbox.moe/qumhu4.jpg",
+  "keywords": ["KING-BOT", "LITE-XD"],
   "success_url": "/",
-
-    "stack": "container",
+  "stack": "heroku-24",
   "env": {
     "SESSION_ID": {
-      "description": "Must Start with 'lite~'",
-      "required": trequired   "value": ""
+      "description": "Must start with 'lite~'",
+      "required": true,
+      "value": ""
     },
-      "KING-BOT": {
-        "description": "write here your bot name.",
-        "required": true,
-        "value": "ʟɪᴛᴇ-xᴅ"      
-    },  
+    "KING_BOT": {
+      "description": "Write your bot name here.",
+      "required": true,
+      "value": "ʟɪᴛᴇ-xᴅ"
+    },
     "MODE": {
       "description": "Set private/public/inbox/groups",
       "required": false,
       "value": "public"
-     },
-   
+    },
     "PREFIX": {
-      "description": "Your Bot Prefix (default: .) You can put your own custom prefix",
+      "description": "Your Bot Prefix (default: .)",
       "required": true,
       "value": "."
     },
-    
-    "OWNER_NAME": {
+  MALVIN {
       "description": "Put Owner Name Here",
       "required": true,
       "value": "ᴍᴀʟᴠɪɴ ᴋɪɴɢ"
@@ -35,22 +34,17 @@
     "OWNER_NUMBER": {
       "description": "Put only one Owner Number Here",
       "required": true,
-      "value": "+234 815 699 3600"
+      "value": "2348156993600"
     },
-    
     "PRESENCE": {
       "description": "Put online/typing/recording/unavailable",
       "required": true,
       "value": "online"
     }
-
-},
-
-     "buildpacks": [
-        {
-            "url": "https://github.com/heroku/heroku-buildpack-nodejs.git"
-        }
-     ],
-  "stack": "heroku-24"
+  },
+  "buildpacks": [
+    {
+      "url": "https://github.com/heroku/heroku-buildpack-nodejs.git"
+    }
+  ]
 }
-  
